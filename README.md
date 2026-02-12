@@ -4,7 +4,7 @@ This repository contains code and scripts to reproduce the experimental results 
 
 Noise Adaptation in NISQ Quantum Machine Learning: From Mitigation Limits to Benefit Characterization
 
-The paper is a study paper. It examines when measured noise regimes are harmful, when they are tolerable, and when they exhibit narrow transient benefits under explicit resource budgets. The repository supports two goals.
+It examines when measured noise regimes are harmful, when they are tolerable, and when they exhibit narrow transient benefits under explicit resource budgets. The repository supports two goals.
 
 1. Reproduce the simulator based case studies that show how different noise channels can change early optimization dynamics.
 2. Reproduce the cost aware, profile aggregated evaluation metric, Noise Adapted Performance Ratio, together with robustness diagnostics.
@@ -181,25 +181,3 @@ If you prefer a single output directory, edit the `outdir` variable in the corre
 * Most scripts set a fixed random seed. If you change seeds, expect small shifts in early iteration traces.
 * The VQC scripts download MNIST through OpenML the first time they run.
 * Hardware scripts depend on device availability, calibration drift, and queue time.
-
-## Citation
-
-If you use this code in your work, please cite the paper.
-
-```bibtex
-@article{QNoise2026,
-  title   = {Noise Adaptation in NISQ Quantum Machine Learning: From Mitigation Limits to Benefit Characterization},
-  author  = {Akewar, Mayur and Bhimani, Janki and Madireddy, Sandeep and Luo, Dongsheng},
-  journal = {Quantum},
-  year    = {2026},
-  note    = {To appear}
-}
-```
-
-## License
-
-Add the license that matches your intended distribution policy. If you plan to submit to a venue with artifact evaluation, a permissive license such as MIT or BSD 3 Clause is commonly used.
-
-## Contact
-
-For questions and issues, open a GitHub issue or contact the paper authors.
